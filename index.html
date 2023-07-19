@@ -12,11 +12,12 @@
         <h6>Select size:</h6>
         <button id = "popup">Click</button>
     </div>
+    <p id="message"></p>
     <div class="board"></div>
     <div class="footer">
-        <button>Black</button>
-        <button>Random</button>
-        <button>Reset</button>
+        <button onclick="setColor('black')">Black</button>
+        <button onclick="setColor('random')">Random</button>
+        <button onclick="resetBoard()">Reset</button>
     </div>
  <script src="script.js"></script>   
 </body>
